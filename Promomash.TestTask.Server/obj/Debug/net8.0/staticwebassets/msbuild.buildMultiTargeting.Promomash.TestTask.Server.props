@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Promomash.TestTask.Server.props" />
-</Project>
