@@ -1,0 +1,11 @@
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\bin\Debug\net8.0\Promomash.TestTask.Domain.deps.json
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\bin\Debug\net8.0\Promomash.TestTask.Domain.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\bin\Debug\net8.0\Promomash.TestTask.Domain.pdb
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\Promomash.TestTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\Promomash.TestTask.Domain.AssemblyInfoInputs.cache
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\Promomash.TestTask.Domain.AssemblyInfo.cs
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\Promomash.TestTask.Domain.csproj.CoreCompileInputs.cache
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\Promomash.TestTask.Domain.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\refint\Promomash.TestTask.Domain.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\Promomash.TestTask.Domain.pdb
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Domain\obj\Debug\net8.0\ref\Promomash.TestTask.Domain.dll

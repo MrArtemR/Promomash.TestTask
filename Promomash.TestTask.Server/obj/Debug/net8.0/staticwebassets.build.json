@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "7AHQ2chacg22mV8Ggp8A9SkoEFprJDQHQUOTYBbDB/c=",
+  "Source": "Promomash.TestTask.Server",
+  "BasePath": "_content/Promomash.TestTask.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\artemrekhin\\source\\repos\\Promomash.TestTask\\promomash.testtask.client\\promomash.testtask.client.esproj",
+      "Version": 2,
+      "Source": "promomash.testtask.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

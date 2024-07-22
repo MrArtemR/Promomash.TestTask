@@ -1,0 +1,17 @@
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\bin\Debug\net8.0\Promomash.TestTask.Persistence.deps.json
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\bin\Debug\net8.0\Promomash.TestTask.Persistence.runtimeconfig.json
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\bin\Debug\net8.0\Promomash.TestTask.Persistence.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\bin\Debug\net8.0\Promomash.TestTask.Persistence.pdb
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\bin\Debug\net8.0\Promomash.TestTask.Domain.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\bin\Debug\net8.0\Promomash.TestTask.Domain.pdb
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.csproj.AssemblyReference.cache
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.AssemblyInfoInputs.cache
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.AssemblyInfo.cs
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomas.788080CF.Up2Date
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\refint\Promomash.TestTask.Persistence.dll
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.pdb
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\Promomash.TestTask.Persistence.genruntimeconfig.cache
+C:\Users\artemrekhin\source\repos\Promomash.TestTask\Promomash.TestTask.Persistence\obj\Debug\net8.0\ref\Promomash.TestTask.Persistence.dll

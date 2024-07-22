@@ -1,0 +1,107 @@
+<div class="card m-3">
+  <h5 class="card-header">Step {{currentStep}}</h5>
+  <div class="card-body">
+
+    <div *ngIf="currentStep == 1">
+
+      <form [formGroup]="registerForm" (ngSubmit)="onGoSecondStep()">
+        <div class="form-group">
+          <label for="inputLogin" class="col-sm-2 col-form-label">Email</label>
+          <input type="text"
+                 formControlName="login"
+                 class="form-control"
+                 id="inputLogin"
+                 [ngClass]="{ 'is-invalid': submittedFirstStep && f.login.errors }" />
+          <div *ngIf="submittedFirstStep && f.login.errors" class="invalid-feedback">
+            <div *ngIf="f.login.errors.required">Email is required</div>
+            <div *ngIf="f.login.errors.email">Email must be a valid email address</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <input type="password"
+                 formControlName="password"
+                 class="form-control"
+                 id="inputPassword"
+                 [ngClass]="{ 'is-invalid': submittedFirstStep && f.password.errors }" />
+          <div *ngIf="submittedFirstStep && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+            <div *ngIf="f.password.errors.pattern">Password must contain min 1 digit and min 1 uppercase letter</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputConfirmPassword" class="col-sm-2 col-form-label">Confirm password</label>
+          <input type="password"
+                 formControlName="confirmPassword"
+                 class="form-control"
+                 id="inputConfirmPassword"
+                 [ngClass]="{ 'is-invalid': submittedFirstStep && f.confirmPassword.errors }" />
+          <div *ngIf="submittedFirstStep && f.confirmPassword.errors" class="invalid-feedback">
+            <div *ngIf="f.confirmPassword.errors.required">Password is required</div>
+            <div *ngIf="f.confirmPassword.errors?.['confirmedValidator']">Confirm password must be the same with password</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <input formControlName="agreementToWorkForFood" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="col-sm-2 form-check-label" for="flexCheckDefault">
+            Agree to work for food
+          </label>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-primary mr-1" type="submit" [disabled]="f.agreementToWorkForFood.value == false">Go to step 2</button>
+        </div>
+      </form>
+    </div>
+
+    <div *ngIf="currentStep == 2">
+      <form [formGroup]="countryForm" (ngSubmit)="onSubmit()" #signupForm="ngForm">
+        <div class="form-group">
+          <label for="country" class="col-sm-2 col-form-label">Country</label>
+          <select 
+                  formControlName="countryId"
+                  (change)="onCountryChange($event)"
+                  class="form-select form-select-lg mb-3"
+                  name="country"
+                  aria-label=".form-select-lg example"
+                  [ngClass]="{ 'is-invalid': submittedSecondStep && countryInvalid }">
+            <option value="" disabled selected>Select country</option>
+            @for (country of countries!.entities; track country){
+            <option [value]="country.id">{{country.name}}</option>
+            }
+          </select>
+          <div *ngIf="submittedSecondStep && countryInvalid" class="invalid-feedback">
+            <div *ngIf="submittedSecondStep && countryInvalid">Country is a required field</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="province" class="col-sm-2 col-form-label">Provinces</label>
+          <select matNativeControl
+                  formControlName="provinceId"
+                  class="form-select form-select-lg mb-3"
+                  name="province"
+                  aria-label=".form-select-lg example"
+                  [ngClass]="{ 'is-invalid': submittedSecondStep && provinceInvalid}">
+            <option value="" disabled selected>{{selecterProvinceText}}</option>
+            @for (province of provinces; track province){
+            <option [value]="province.id">{{province.name}}</option>
+            }
+          </select>
+          <div *ngIf="submittedSecondStep && provinceInvalid" class="invalid-feedback">
+            <div *ngIf="submittedSecondStep && provinceInvalid" class="invalid-feedback">Province is a required field</div>
+          </div>
+        </div>
+
+          <div class="text-center">
+            <button class="btn btn-primary mr-1" type="submit">Save</button>
+            <h5 class="card-header">{{resultOfCreationUser}} </h5>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+
